@@ -1,0 +1,9 @@
+Flask==2.2.2
+Flask==2.2.5
+matplotlib==3.7.2
+matplotlib==3.8.4
+numpy==1.24.3
+Pillow==9.4.0
+Pillow==11.0.0
+tensorflow==2.15.1
+tensorflow_intel==2.15.1
