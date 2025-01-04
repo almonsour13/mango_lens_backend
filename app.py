@@ -1,3 +1,14 @@
+# RUN WITH THIS COMMAND LOCALLY
+# RUN WITH THIS COMMAND LOCALLY
+# RUN WITH THIS COMMAND LOCALLY
+
+# uvicorn app:app --host 0.0.0.0 --port 8000
+# uvicorn app:app --host 0.0.0.0 --port 8000
+# uvicorn app:app --host 0.0.0.0 --port 8000
+# uvicorn app:app --host 0.0.0.0 --port 8000
+# uvicorn app:app --host 0.0.0.0 --port 8000
+# uvicorn app:app --host 0.0.0.0 --port 8000
+
 import numpy as np
 import tensorflow as tf
 from flask import Flask, request, jsonify
@@ -6,7 +17,6 @@ from tensorflow.keras.layers import Dropout, Dense
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
-import io
 import base64
 import cv2
 
