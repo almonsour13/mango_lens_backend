@@ -27,7 +27,7 @@ model.layers[0].trainable = False
 model.compile(Adam(learning_rate=0.001), loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True), metrics=['accuracy'])
 
 # Load the model weights
-model.load_weights('/model/mango_leaf_classification_model_weights_omdena_resnet50.hdf5')
+model.load_weights('model/mango_leaf_classification_model_weights_omdena_resnet50.hdf5')
 
 base_model = model.layers[0]
 layer_name = 'conv5_block3_3_conv'
